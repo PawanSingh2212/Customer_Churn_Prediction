@@ -1,0 +1,25 @@
+COLUMNS:
+  AccountAge: int64 
+  MonthlyCharges: float64
+  TotalCharges: float64
+  SubscriptionType: object
+  PaymentMethod: object
+  PaperlessBilling: object
+  ContentType: object
+  MultiDeviceAccess: object
+  DeviceRegistered: object
+  ViewingHoursPerWeek: float64
+  AverageViewingDuration: float64
+  ContentDownloadsPerMonth: int64
+  GenrePreference: object
+  UserRating: float64
+  SupportTicketsPerMonth: int64
+  Gender: object
+  WatchlistSize: int64
+  ParentalControl: object
+  SubtitlesEnabled: object
+  CustomerID: object
+  Churn: int64
+
+TARGET_COLUMN:
+  target_col_name = Churn
